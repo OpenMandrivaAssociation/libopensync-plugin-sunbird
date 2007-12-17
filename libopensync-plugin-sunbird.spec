@@ -12,7 +12,6 @@ URL:		http://www.opensync.org
 Source:		svn://svn.opensync.org/plugins/sunbird/%{name}-%{version}.tar.bz2
 BuildRequires:	opensync-devel >= 0.20
 BuildRequires:  libneon-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This plug-in allows applications using OpenSync to synchronize to and
