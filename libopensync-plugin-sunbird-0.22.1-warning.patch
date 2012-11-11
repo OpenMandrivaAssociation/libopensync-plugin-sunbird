@@ -1,0 +1,11 @@
+--- libopensync-plugin-sunbird/src/Makefile.am	2008-03-13 00:45:46.000000000 -0700
++++ libopensync-plugin-sunbird/src/Makefile.am.new	2008-03-13 00:53:43.000000000 -0700
+@@ -6,8 +6,6 @@
+ 
+ INCLUDES = @PACKAGE_CFLAGS@
+ 
+-AM_CFLAGS = -Wall -Werror
+-
+ EXTRA_DIST = \
+ 	sunbird-sync \
+ 	sunbird_sync.h \
