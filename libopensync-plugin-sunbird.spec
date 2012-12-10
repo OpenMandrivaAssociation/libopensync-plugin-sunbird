@@ -57,3 +57,36 @@ rm -rf %{buildroot}
 %{_libdir}/opensync/plugins/*
 %{_datadir}/opensync/defaults/*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1:0.22.1-0.3218.3mdv2011.0
++ Revision: 620205
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1:0.22.1-0.3218.2mdv2010.0
++ Revision: 429821
+- rebuild
+
+* Thu Mar 13 2008 Adam Williamson <awilliamson@mandriva.org> 1:0.22.1-0.3218.1mdv2008.1
++ Revision: 187323
+- some cleanups
+- revert to 0.22 based on latest 0.22 spec in SVN (use snapshot from upstream 0.2 SVN branch as it includes useful stable fixes since 0.22)
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Apr 24 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.22-1mdv2008.0
++ Revision: 18004
+- new version
+
+
+* Mon Jan 08 2007 Jérôme Soyer <saispo@mandriva.org> 0.20-1mdv2007.0
++ Revision: 105924
+- Add BR
+- Rebuild
+- Import libopensync-plugin-sunbird
+
