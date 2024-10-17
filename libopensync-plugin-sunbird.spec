@@ -17,7 +17,7 @@ Release: 	%{release}
 Summary: 	Sunbird synchronization plug-in for OpenSync
 License:	LGPLv2+
 Group:		Office
-URL:		http://www.opensync.org
+URL:		https://www.opensync.org
 # For SVN:
 # svn co http://svn.opensync.org/branches/branch-0.2X/plugins/sunbird libopensync-plugin-sunbird
 Source0:	http://www.opensync.org/download/releases/%{distname}
